@@ -85,7 +85,7 @@ Sz = 70; % single source
 Rx = 1:2:nx;                    % receivers on some of grids
 Rz = 25*ones(size(Rx));     % receivers on some of grids
 
-%[Rx,Rz] = meshgrid(1:nx,1:nz); % receivers on all of grids. This case is 
+[Rx,Rz] = meshgrid(1:nx,1:nz); % receivers on all of grids. This case is 
 % good for generating wave propagation snapshots and visualizing as 
 % animation. this case requires a large amount of memory for many sources
 
@@ -100,10 +100,11 @@ dt = t(2) - t(1);
 %% display options
 
 %%% display wave propagation animation
-figure
+
 shot_id = 1; % index number of source
 
 if size(pt,1) == nz*nx % check if receivers are on all of grids
+    figure
     for i = 1:length(t)
         tmp = reshape(pt(:,i,shot_id),nz,nx);
         imagesc(0:dx:(nx-1)*dx,0:dx:(nz-1)*dx,tmp)
