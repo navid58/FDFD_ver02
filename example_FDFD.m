@@ -123,9 +123,10 @@ else
 end
 
 %%% display shot records
-figure
+
 shot_id = 1; % index number of source (can be 1 to length(sx))
 
+figure
 if size(pt,1) == nz*nx % check if receivers are on all of grids
     % in this case to display shot record we need to define locations
     % of the receivers
