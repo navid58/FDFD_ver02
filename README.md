@@ -19,7 +19,7 @@ This MATLAB package solves 2D visco-acoustic wave equation using mixed-grid sten
 
 ## Tutorial
 
-Please open [example_fdfd.m](https://github.com/navid58/FDFD_ver02/blob/main/example_FDFD.m) and run it section by section as a tutorial for this package. I tried to explain each line briefly with appropriate comments. All functions inputs and outputs are also explained inside the functions.
+Open [example_fdfd.m](https://github.com/navid58/FDFD_ver02/blob/main/example_FDFD.m) and run it section by section as a tutorial for this package. I tried to explain each line briefly with appropriate comments. All functions inputs and outputs are also explained inside the functions.
 
 ## Citation
 
