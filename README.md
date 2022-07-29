@@ -25,6 +25,6 @@ Open [example_fdfd.m](https://github.com/navid58/FDFD_ver02/blob/main/example_FD
 
 For more information about the theory and of this work please see the following paper:
 
-[Amini, N. and Javaherian, A., “A MATLAB-based frequency-domain finite-difference package for solving 2D visco-acoustic wave equation”, Waves in Random and Complex Media, vol. 21, no. 1, pp. 161–183, 2011. doi:10.1080/17455030.2010.537708.](https://www.tandfonline.com/doi/abs/10.1080/17455030.2010.537708?journalCode=twrm20)
+Amini, N. and Javaherian, A., “A MATLAB-based frequency-domain finite-difference package for solving 2D visco-acoustic wave equation”, Waves in Random and Complex Media, vol. 21, no. 1, pp. 161–183, 2011. doi:10.1080/17455030.2010.537708.
  
 This FDFD package initially was published as the [supplemental material](https://www.tandfonline.com/doi/suppl/10.1080/17455030.2010.537708?scroll=top) of this paper. Current version of the codes is the updated version considering updates happened in MATLAB since 2011 and fixing some bugs and some other improvements. Please cite the above paper when reporting, reproducing or extending the results.
